@@ -1,4 +1,4 @@
-```java
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ java
 package com.soul.dream.exam;
 
         import android.app.Activity;
@@ -8,13 +8,13 @@ package com.soul.dream.exam;
 
 /**
  *
- * @{#} SplashActivity.java Create on 2013-5-2 下午9:10:01
+ * @{#} SplashActivity.java Create on 2016-5-2 下午9:10:01
  *
  * class desc:   启动画面
  *
- * <p>Copyright: Copyright(c) 2013 </p>
+ * <p>Copyright: Copyright(c) 2016 </p>
  * @Version 1.0
- * @Author <a href="mailto:gaolei_xj@163.com">Leo</a>
+ * @Author <a href="mailto:love414042186@qq.com">xie</a>
  *
  *
  */
@@ -28,7 +28,7 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
-        // 使用Handler的postDelayed方法，3秒后执行跳转到MainActivity
+        // 使用Handler的postDelayed方法，3秒后跳转到MainActivity
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 goHome();
@@ -42,4 +42,4 @@ public class SplashActivity extends Activity {
         SplashActivity.this.finish();
     }
 }
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
