@@ -1,3 +1,4 @@
+```java
 package com.soul.dream.exam;
 
         import android.app.Activity;
@@ -41,3 +42,4 @@ public class SplashActivity extends Activity {
         SplashActivity.this.finish();
     }
 }
+```
